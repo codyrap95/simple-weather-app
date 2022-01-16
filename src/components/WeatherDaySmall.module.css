@@ -1,0 +1,23 @@
+.icon {
+  height: 100%;
+  width: auto;
+}
+.weatherItem:first-child {
+  border-top: 1px solid hsl(0, 0%, 60%);
+}
+.weatherItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 2rem;
+  max-width: 30rem;
+  margin: 0 auto;
+  border-bottom: 1px solid hsl(0, 0%, 60%);
+  padding: 0.3rem 0;
+  font-size: 1.2rem;
+}
+.maxTemp {
+  margin-left: 1rem;
+  color: hsl(0, 0%, 60%);
+}
